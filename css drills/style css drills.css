@@ -1,0 +1,88 @@
+*{
+    font-family: 'Baloo Da 2', cursive;
+}
+
+body{
+background-color: lightgrey;
+
+}
+h2,p,a{
+    text-align: center;
+}
+
+.readme-wrapper{
+text-align: center;
+}
+.readme-wrapper a{
+    text-decoration: none;
+    color: rgb(224, 78, 20);
+}
+.readme-wrapper a:hover{
+    color: maroon;
+    font-family: 'Fondamento', cursive;
+}
+.boxes{
+    /* display: block; */
+    margin:15px 4px;
+    border: 2px solid red;
+    padding: 10px 10px;
+    width: 30em;
+    border-radius: 20   px;
+    
+    /* line-height: 1; */
+}
+#box1{
+    background-color: rosybrown;
+}
+#box2{
+    background-color: royalblue;
+    /* position: absolute; */
+    /* left:700px; */
+}
+#box3{
+    background-color: lightsalmon;
+}
+#box4{
+    background-color: lightseagreen ;
+}
+
+.img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(229, 243, 101);
+}
+.original{
+    color: tomato;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.additional{
+    color: magenta;
+}
+
+.original#omov1{
+    color: mediumblue;
+
+}
+.original#omov2{
+    color: green;
+}
+.original#omov3{
+    color:black;
+}
+
+.additional#mov1{
+    color: indigo;
+}
+.additional#mov2{
+    color: chocolate;
+}
+.star li{
+    color:goldenrod;
+}
+#wars li{
+    color: brown;
+}
+.wrap {
+    border: 2px solid black;
+}

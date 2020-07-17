@@ -1,0 +1,52 @@
+#board{
+    padding-top: 3em;
+    text-align: center;
+    /* align-items: center; */
+}
+.container{
+    display: flex;
+
+}
+.row{
+    clear: both;
+    margin:50px auto;
+    align-items: center;
+}
+.top{
+    float: left;
+    height:100px;
+    width:100px;
+    border-bottom: 1px solid black;
+    /* display: block; */
+}
+.center{
+    float:left;
+    /* align-items: center; */
+    /* position:relative; */
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid black; */
+
+}
+.bottom{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-top: 1px solid black;
+
+}
+.left{
+    border-right: 1px solid black;
+}
+.right{
+    border-left: 1px solid black;
+}
+
+
+/* .ps1{
+    float: left;
+}
+.ps2{
+    float: auto;
+} */
+
